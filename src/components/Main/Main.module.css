@@ -1,0 +1,171 @@
+.sidebar{
+    background-color: white; 
+    margin-right: 5px; 
+    height: 100vh; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.head{
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: 180px;
+    padding-left: 40px;
+    padding-right: 60px;
+    border-radius: 10px;
+    margin-right: 10px !important;
+    margin-top: 5px !important;
+}
+.heading{
+    font-size: 44px;
+    color: #354895;
+    font-weight: bold;
+}
+.conHead{
+    color: #0f1856;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.content{
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-top: 15px !important;
+    margin-right: 10px !important;
+    padding-left: 40px;
+    padding-bottom: 10vh;
+    padding-right: 20px;
+    min-height: 70vh;
+}
+
+.btn{
+    background-color: #5468ff !important;
+    color: white !important;
+    font-size: 20px !important;
+    border-radius: 15px !important;
+    padding: 15px !important;
+}
+.submitbtn{
+    background-color: #5468ff !important;
+    color: white !important;
+    font-size: 20px !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+}
+
+
+
+.btn:hover{
+    color: white !important;
+    background-color: #495adf !important;
+}
+.editBtn{
+    background-color: #e5e8ff !important;
+    color: #5468ff !important;
+    width: 100%;
+    font-size: 18px !important;
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+    font-weight: 500 !important;
+    padding: 12px 12px !important;
+}
+.editBtn:hover{
+    background-color: #bfd5f7 !important;
+}
+.remove{
+    color: #7e7f81;
+}
+.input{
+    border: 1px solid #7e7f81;
+    font-size: 18px;
+    padding: 2px 20px;
+    border-radius: 5px;
+    height: 39px;
+}
+.input:focus{
+    outline: none;
+    border: 1px solid #91a2c4;
+
+}
+.add{
+    border: 1px dashed #7e7f81 !important;
+    width: 250px;
+}
+.add:hover{
+    border: 1px solid #5468ff;
+    color: #5468ff;
+}
+
+.box{
+    border: 1px solid #d0deef;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.text1{
+    font-size: 20px;
+    color: #354895;
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-top: 100px;
+}
+.text2{
+    font-size: 24px;
+    color: #ec6820;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    .heading{
+        font-size: 34px;
+    }
+    .btn{
+        font-size: 17px !important;
+        padding: 12px !important;
+    }
+    .conHead{
+        font-size: 25px;
+    }
+    .text1{
+        margin-top: 50px;
+        font-size: 17px;
+    }
+    .text2{
+        margin-bottom: 50px;
+        font-size: 21px;
+    }
+    .editBtn{
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width: 827px) {
+    .heading{
+        font-size: 28px;
+    }
+    .btn{
+        padding: 11px !important;
+    }
+    .conHead{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 594px) {
+    .head{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .heading{
+        font-size: 23px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .conHead{
+        font-size: 22px;
+    }
+}
